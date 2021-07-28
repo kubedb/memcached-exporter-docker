@@ -20,6 +20,7 @@ jobs:
         id: semver
         run: |
           make version
+
       - name: Set up QEMU
         id: qemu
         uses: docker/setup-qemu-action@v1
